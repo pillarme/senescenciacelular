@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#060812" />
+<title>Próximamente — senescenciacelular.com</title>
+<meta name="description" content="Este artículo está en edición. Mientras tanto, lee la página pilar o el artículo viral." />
+<meta name="robots" content="noindex,follow" />
+<link rel="canonical" href="https://senescenciacelular.com/coming-soon/" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+<link rel="stylesheet" href="/assets/css/main.css" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a href="/" class="brand"><span class="brand__mark" aria-hidden="true"></span><span class="brand__name">senescencia<b>celular</b></span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="/senescencia-celular/">Senescencia</a>
+      <a href="/tu-estrogeno-hormona-longevidad/">Estrógeno</a>
+      <a href="/preguntas-frecuentes/" class="nav__cta">FAQ</a>
+    </nav>
+  </div>
+</header>
+<main class="coming-soon">
+  <div class="coming-soon__inner">
+    <svg width="120" height="120" viewBox="0 0 120 120" style="margin: 0 auto 2rem; display:block" aria-hidden="true">
+      <defs>
+        <radialGradient id="g" cx="50%" cy="50%"><stop offset="0%" stop-color="#7af7c8" stop-opacity=".7"/><stop offset="100%" stop-color="#7af7c8" stop-opacity="0"/></radialGradient>
+      </defs>
+      <circle cx="60" cy="60" r="55" fill="url(#g)">
+        <animate attributeName="r" values="40;55;40" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="60" cy="60" r="20" fill="none" stroke="#7af7c8" stroke-width="1" stroke-dasharray="3 5">
+        <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="60" cy="60" r="3" fill="#7af7c8"/>
+    </svg>
+    <span class="kicker">En revisión científica</span>
+    <h1>Este artículo está en edición.</h1>
+    <p>Nuestro estándar editorial requiere que cada pieza cite al menos tres fuentes primarias y pase revisión interna antes de publicarse. Esta está casi lista.</p>
+    <p id="from-slug" class="coming-soon__slug" hidden></p>
+    <div style="margin-top:2.5rem; display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+      <a href="/senescencia-celular/" class="btn">Ir al pilar de senescencia</a>
+      <a href="/tu-estrogeno-hormona-longevidad/" class="btn btn--ghost">Leer el artículo viral</a>
+    </div>
+    <p style="margin-top:3rem; color:var(--ink-3); font-size:.85rem">
+      ¿Quieres avisarnos que esperas este artículo? Escribe a <a href="mailto:editor@senescenciacelular.com">editor@senescenciacelular.com</a>.
+    </p>
+  </div>
+</main>
+<script>
+  // Show the slug the user was trying to reach (set by the Worker via ?from=)
+  (function(){
+    const p = new URLSearchParams(location.search).get("from");
+    if (p) {
+      const el = document.getElementById("from-slug");
+      el.textContent = "Solicitaste: " + p;
+      el.hidden = false;
+    }
+  })();
+</script>
+</body>
+</html>

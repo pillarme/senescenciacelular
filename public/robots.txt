@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /coming-soon/
+Disallow: /404/
+
+# Sitemap
+Sitemap: https://senescenciacelular.com/sitemap.xml

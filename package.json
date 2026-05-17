@@ -1,0 +1,16 @@
+{
+  "name": "senescenciacelular",
+  "version": "0.1.0",
+  "private": true,
+  "description": "senescenciacelular.com — La ciencia del envejecimiento, finalmente traducida para ti.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "echo 'static site — no build step'",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}

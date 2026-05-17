@@ -11,6 +11,17 @@ const BUILT = new Set([
   "/preguntas-frecuentes/",
   "/coming-soon/",
   "/404/",
+  // Chunk 2
+  "/que-es-celula-senescente/",
+  "/sasp-secreto-inflamatorio/",
+  "/fisetina-flavonoide-senolitico/",
+  "/senoliticos-eliminar-celulas-viejas/",
+  "/marcadores-senescencia-p16-p21-galactosidasa/",
+  "/rapamicina-mtor-mujeres/",
+  "/metformina-geroprotector/",
+  "/keeps-trial-terapia-hormonal-senescencia/",
+  "/edad-biologica-vs-cronologica/",
+  "/reloj-epigenetico-horvath/",
 ]);
 
 // Every planned slug from 04_senescenciacelular.md. Anything not in BUILT

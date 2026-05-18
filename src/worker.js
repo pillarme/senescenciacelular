@@ -75,6 +75,23 @@ const BUILT = new Set([
   "/estrogeno-topico-piel/",
   "/microneedling-radiofrecuencia-laser/",
   "/paradoja-piel-hispana-fitzpatrick/",
+  // Chunk 8 — Pillar 07 Suplementos complete
+  "/suplementos-evidencia/",
+  "/nmn-vs-nr-nad-precursores/",
+  "/resveratrol-funciona/",
+  "/pterostilbeno-longevidad/",
+  "/espermidina-evidencia/",
+  "/urolitina-a-mitocondrias/",
+  "/glicina-nac-glynac/",
+  "/coenzima-q10-ubiquinol/",
+  "/magnesio-l-treonato-cerebro/",
+  "/sulforafano-nrf2/",
+  "/curcumina-biodisponibilidad/",
+  "/berberina-metformina-natural/",
+  "/astaxantina-senescencia/",
+  "/quercetina-senolitico-natural/",
+  "/fisetina-dosis-senolitica/",
+  "/marcas-suplementos-confiables/",
 ]);
 
 // Every planned slug from 04_senescenciacelular.md. Anything not in BUILT

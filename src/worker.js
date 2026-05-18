@@ -41,6 +41,18 @@ const BUILT = new Set([
   "/ooforectomia-temprana-envejecimiento/",
   "/estrogeno-hueso-usp10-p53/",
   "/estrogeno-cerebro/",
+  // Chunk 5 — Pillar 04 Ovárico complete
+  "/envejecimiento-ovarico/",
+  "/reserva-ovarica/",
+  "/amh-hormona-antimulleriana/",
+  "/atrofia-ovarica/",
+  "/senoliticos-fertilidad/",
+  "/oopause/",
+  "/preservacion-fertilidad/",
+  "/insuficiencia-ovarica-primaria/",
+  "/endometriosis-envejecimiento-celular/",
+  "/adenomiosis-sasp-uterino/",
+  "/microbioma-vaginal-senescencia/",
 ]);
 
 // Every planned slug from 04_senescenciacelular.md. Anything not in BUILT

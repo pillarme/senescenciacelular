@@ -53,6 +53,16 @@ const BUILT = new Set([
   "/endometriosis-envejecimiento-celular/",
   "/adenomiosis-sasp-uterino/",
   "/microbioma-vaginal-senescencia/",
+  // Chunk 6 — Pillar 06 Biomarcadores complete
+  "/biomarcadores-envejecimiento/",
+  "/grimage-predictor-mortalidad/",
+  "/dunedinpace-velocidad-envejecimiento/",
+  "/telomeros-como-medirlos/",
+  "/proteomica-envejecimiento/",
+  "/metabolomica-envejecimiento/",
+  "/inflammaging-hscrp-il6-tnf/",
+  "/glycanage-edad-glicanos/",
+  "/elegir-prueba-envejecimiento-latam-espana/",
 ]);
 
 // Every planned slug from 04_senescenciacelular.md. Anything not in BUILT

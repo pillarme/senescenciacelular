@@ -63,6 +63,18 @@ const BUILT = new Set([
   "/inflammaging-hscrp-il6-tnf/",
   "/glycanage-edad-glicanos/",
   "/elegir-prueba-envejecimiento-latam-espana/",
+  // Chunk 7 — Pillar 05 Piel complete
+  "/piel-senescencia/",
+  "/piel-organo-senescencia/",
+  "/fotoenvejecimiento-vs-cronoenvejecimiento/",
+  "/colageno-tipo-i-iii-piel-femenina/",
+  "/retinoides-evidencia/",
+  "/vitamina-c-topica/",
+  "/niacinamida-senescencia-dermica/",
+  "/peptidos-piel/",
+  "/estrogeno-topico-piel/",
+  "/microneedling-radiofrecuencia-laser/",
+  "/paradoja-piel-hispana-fitzpatrick/",
 ]);
 
 // Every planned slug from 04_senescenciacelular.md. Anything not in BUILT

@@ -30,6 +30,17 @@ const BUILT = new Set([
   "/senomorficos-silenciar-sasp/",
   "/futuro-senoliticos-clinicos/",
   "/senescencia-enfermedad-modelo-unificado/",
+  // Chunk 4 — Pillar 03 Estrógeno depth
+  "/estrogeno-longevidad/",
+  "/receptores-estrogeno-er-alpha-beta-gper/",
+  "/estrogeno-mitocondrial/",
+  "/elite-trial-ventana-oportunidad/",
+  "/whi-revisitado/",
+  "/estradiol-transdermico-superior/",
+  "/estrogeno-autofagia-mitocondrial-rab9/",
+  "/ooforectomia-temprana-envejecimiento/",
+  "/estrogeno-hueso-usp10-p53/",
+  "/estrogeno-cerebro/",
 ]);
 
 // Every planned slug from 04_senescenciacelular.md. Anything not in BUILT

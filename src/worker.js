@@ -22,6 +22,14 @@ const BUILT = new Set([
   "/keeps-trial-terapia-hormonal-senescencia/",
   "/edad-biologica-vs-cronologica/",
   "/reloj-epigenetico-horvath/",
+  // Chunk 3 — closes Pillar 02
+  "/espermidina-autofagia/",
+  "/nad-senescencia/",
+  "/glp1-geroprotectores/",
+  "/acarbosa-longevidad/",
+  "/senomorficos-silenciar-sasp/",
+  "/futuro-senoliticos-clinicos/",
+  "/senescencia-enfermedad-modelo-unificado/",
 ]);
 
 // Every planned slug from 04_senescenciacelular.md. Anything not in BUILT

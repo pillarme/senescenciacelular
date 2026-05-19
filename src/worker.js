@@ -92,6 +92,22 @@ const BUILT = new Set([
   "/quercetina-senolitico-natural/",
   "/fisetina-dosis-senolitica/",
   "/marcas-suplementos-confiables/",
+  // Chunk 9 — Pillar 08 + Pillar 03 stragglers
+  "/ciencia-traducida/",
+  "/como-leer-paper-pubmed/",
+  "/revision-sistematica-explicada/",
+  "/evaluar-suplemento-evidencia/",
+  "/evaluar-clinica-longevidad/",
+  "/voces-cientificas-envejecimiento/",
+  "/centros-investigacion-envejecimiento/",
+  "/glosario-senescencia-autofagia-mtor-sasp/",
+  "/cronologia-ciencia-envejecimiento/",
+  "/boom-clinicas-longevidad/",
+  "/futuro-ciencia-femenina-envejecimiento/",
+  "/estrogeno-telomeros/",
+  "/estrogeno-reparacion-adn/",
+  "/estrogeno-stress-oxidativo/",
+  "/estrogeno-arterias/",
 ]);
 
 // Every planned slug from 04_senescenciacelular.md. Anything not in BUILT

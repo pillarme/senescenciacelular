@@ -108,6 +108,21 @@ const BUILT = new Set([
   "/estrogeno-reparacion-adn/",
   "/estrogeno-stress-oxidativo/",
   "/estrogeno-arterias/",
+  // Chunk 10 — Pillar 01 Hallmarks complete
+  "/12-hallmarks-envejecimiento/",
+  "/inestabilidad-genomica-mujeres/",
+  "/acortamiento-telomeros-diferencias-sexo/",
+  "/alteraciones-epigeneticas-estrogeno/",
+  "/perdida-proteostasis/",
+  "/autofagia-disfuncional/",
+  "/desregulacion-deteccion-nutrientes-mtor-ampk/",
+  "/disfuncion-mitocondrial-femenina/",
+  "/agotamiento-celulas-madre/",
+  "/comunicacion-intercelular-alterada/",
+  "/inflamacion-cronica-inflammaging/",
+  "/disbiosis-microbioma/",
+  "/hallmarks-envejecimiento-ovarico/",
+  "/hallmarks-envejecimiento-piel-femenina/",
 ]);
 
 // Every planned slug from 04_senescenciacelular.md. Anything not in BUILT

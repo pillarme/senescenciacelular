@@ -267,6 +267,21 @@ class BodyInjector {
   }
 }
 
+// Make the Google Fonts stylesheet non-render-blocking on every page
+// (the homepage already does this; the handler skips pages already done).
+class FontAsync {
+  element(el) {
+    const href = el.getAttribute("href") || "";
+    if (
+      href.includes("fonts.googleapis.com/css") &&
+      el.getAttribute("media") !== "print"
+    ) {
+      el.setAttribute("media", "print");
+      el.setAttribute("onload", "this.media='all'");
+    }
+  }
+}
+
 function normalize(pathname) {
   if (pathname === "" || pathname === "/") return "/";
   if (pathname.includes(".")) return pathname;
@@ -321,6 +336,7 @@ export default {
 
       const rewriter = new HTMLRewriter()
         .on("head", new HeadInjector(path, url.origin))
+        .on('link[rel="stylesheet"]', new FontAsync())
         .on("body", new BodyInjector());
       const transformed = rewriter.transform(new Response(res.body, { status: res.status, headers }));
       return transformed;

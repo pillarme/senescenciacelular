@@ -1,8 +1,15 @@
 // senescenciacelular.com — minimal, no-deps client JS
-// Lite YouTube facade + scroll reveals + canvas cell field
+// Lite YouTube facade + scroll reveals + canvas cell field + SW
 
 (function () {
   "use strict";
+
+  /* -------- Service Worker registration (PWA) -------- */
+  if ("serviceWorker" in navigator && location.protocol === "https:") {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/sw.js").catch(() => {});
+    });
+  }
 
   /* -------- Lite YouTube facade --------
      Each <div class="lite-youtube" data-id="VIDEO_ID" data-title="..." data-author="..."></div>

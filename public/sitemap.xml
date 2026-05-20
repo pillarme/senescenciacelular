@@ -110,4 +110,6 @@
   <url><loc>https://senescenciacelular.com/disbiosis-microbioma/</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://senescenciacelular.com/hallmarks-envejecimiento-ovarico/</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://senescenciacelular.com/hallmarks-envejecimiento-piel-femenina/</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://senescenciacelular.com/sobre/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://senescenciacelular.com/buscar/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
 </urlset>

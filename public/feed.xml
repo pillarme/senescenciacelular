@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Senescencia Celular — La ciencia del envejecimiento</title>
+    <link>https://senescenciacelular.com/</link>
+    <description>La ciencia del envejecimiento, finalmente traducida para ti. Senescencia celular, estrógeno y longevidad femenina, con fuentes primarias.</description>
+    <language>es</language>
+    <atom:link href="https://senescenciacelular.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 20 May 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Tu estrógeno es una hormona longevidad. Y nadie te lo dijo.</title>
+      <link>https://senescenciacelular.com/tu-estrogeno-hormona-longevidad/</link>
+      <guid>https://senescenciacelular.com/tu-estrogeno-hormona-longevidad/</guid>
+      <description>El sub-estudio KEEPS de Mayo Clinic mostró que la terapia hormonal reduce marcadores séricos de senescencia celular.</description>
+      <pubDate>Sat, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Senescencia celular: qué es, SASP, senolíticos y diferencias en mujeres</title>
+      <link>https://senescenciacelular.com/senescencia-celular/</link>
+      <guid>https://senescenciacelular.com/senescencia-celular/</guid>
+      <description>Página pilar — todo lo que la ciencia sabe hoy sobre senescencia celular, traducido al español.</description>
+      <pubDate>Sat, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>El ensayo KEEPS: la terapia hormonal baja marcadores de senescencia</title>
+      <link>https://senescenciacelular.com/keeps-trial-terapia-hormonal-senescencia/</link>
+      <guid>https://senescenciacelular.com/keeps-trial-terapia-hormonal-senescencia/</guid>
+      <description>Diseño, resultados primarios y el sub-estudio de senescencia 2020.</description>
+      <pubDate>Sat, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dasatinib + Quercetina: el cóctel senolítico pionero</title>
+      <link>https://senescenciacelular.com/dasatinib-quercetina-senoliticos/</link>
+      <guid>https://senescenciacelular.com/dasatinib-quercetina-senoliticos/</guid>
+      <description>El primer senolítico farmacológico que llegó a humanos. Lo que sabemos.</description>
+      <pubDate>Sat, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qué prueba de envejecimiento elegir — guía LATAM/España</title>
+      <link>https://senescenciacelular.com/elegir-prueba-envejecimiento-latam-espana/</link>
+      <guid>https://senescenciacelular.com/elegir-prueba-envejecimiento-latam-espana/</guid>
+      <description>Guía práctica de 4 niveles para elegir biomarcadores de envejecimiento.</description>
+      <pubDate>Sat, 17 May 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
